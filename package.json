@@ -1,0 +1,19 @@
+{
+  "name": "insta-post-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stephen Goncalves <stiefo.o@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
