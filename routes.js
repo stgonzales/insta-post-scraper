@@ -6,7 +6,7 @@ module.exports = {
             (async () => {
                 const browser = await puppeteer.launch();
                 const page = await browser.newPage();
-                await page.goto('https://www.instagram.com/icecube/');
+                await page.goto('https://www.instagram.com/elonmusk/');
                 // other actions...
                 const imgList = await page.evaluate(()=>{
 

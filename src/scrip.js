@@ -4,5 +4,5 @@
 
     const hmtlList = data.map(({src})=> `<li><img src="${src}"></li>`).join('')
 
-    document.querySelector('.container').innerHTML = hmtlList
+    document.querySelector('.posts').innerHTML = hmtlList
 })();

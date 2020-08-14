@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="./scrip.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js" defer></script>
+    
     <title>Instagram Web Scrapper</title>
 </head>
 <body>
-
-    <style>
-        .container{
-            display: flex;
-            gap: .4rem;
-        }
-
-        li{
-            list-style: none;
-        }
-        li img{
-            width: 100%;
-            height: 100%;
-
-            object-fit: cover;
-        }
-    </style>
     <div class="container">
+        <header>
+            <img alt="Instagram Logo" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/instagram.svg"/>
+            <h2>Instagram WebScrapper</h2>
+            <p>A simple web scrapper API for Instagram posts! </p>
+        </header>
+        
+        <form action="">
+            <h3>Insert Instagram name</h3>
+            <input type="text" name="instaname" id="insta" placeholder="e.g. @elonmusk">
+            <button type="submit">Submit</button>
+        </form>
 
+        <main>
+            <div class="posts"></div>
+        </main>
     </div>
+
+    <footer>
+        <p>with ❤️ by Stephen Goncalves 🧑🏾‍💻 - <script>document.write(new Date().getFullYear())</script></p>
+    </footer>
 </body>
 </html>
