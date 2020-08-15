@@ -8,6 +8,7 @@ const port = 3000
 app.use(cors())
 
 app.get("/", routes.index)
+app.get("/:id", routes.getSpecificInsta)
 
 app.listen(port, ()=>{
     console.log(`Listening to port ${port}`);

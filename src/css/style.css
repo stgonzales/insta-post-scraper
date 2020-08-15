@@ -73,6 +73,12 @@ main .posts {
     display: flex;
     flex-wrap: wrap;
     gap: .4rem;
+    text-align: center;
+}
+
+main .posts p{
+    font: 500 1.4rem Archivo;
+    margin: auto;
 }
 
 main li {
@@ -93,7 +99,13 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    font: 400 .8rem Archivo;
+    font: 400 1rem Archivo;
     padding: 2rem;
     text-align: center;
+}
+
+@media (min-width: 700px){
+    header{
+        font-size: 100px;
+    }
 }
