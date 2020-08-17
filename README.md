@@ -26,7 +26,7 @@ Install all the packages
 yarn install
 ```
 
-First you need to run the server, in the command line go to the **insta-post-scrapper** and execute
+First you need to run the server, in the command line go to the **insta-post-scrapper** folder and execute
 
 ```
 yarn start
@@ -34,8 +34,9 @@ yarn start
 
 Then use the [Visual Studio Code](https://code.visualstudio.com/) extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to execute the `index.html` file inside the `/src/` folder. Presuming that you already have Live Server, just right click in the `/src/index.html` and select option 'Open With Live Server'.
 
-...And :tada:, you can type the any instagram user name to see the results.
+...And :tada:, you can type any instagram user name to see the results.
 
+<<<<<<< HEAD
 ## Tools used
 [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][js]
 [<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][html]
@@ -48,3 +49,6 @@ Then use the [Visual Studio Code](https://code.visualstudio.com/) extension [Liv
 [css]: https://www.w3schools.com/css/
 [js]: https://www.w3schools.com/js/
 [node]: https://www.w3schools.com/nodejs/
+=======
+[instagram]: http://instagram.com
+>>>>>>> fd4e4f413435da7015284670fc8724983a126e23
