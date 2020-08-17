@@ -36,19 +36,17 @@ Then use the [Visual Studio Code](https://code.visualstudio.com/) extension [Liv
 
 ...And :tada:, you can type any instagram user name to see the results.
 
-<<<<<<< HEAD
 ## Tools used
+
 [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][js]
 [<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][html]
 [<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][css]
 [<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />][node]
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][website]
+[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][vs]
 
 [instagram]: http://instagram.com
 [html]: https://www.w3schools.com/html/
 [css]: https://www.w3schools.com/css/
 [js]: https://www.w3schools.com/js/
 [node]: https://www.w3schools.com/nodejs/
-=======
-[instagram]: http://instagram.com
->>>>>>> fd4e4f413435da7015284670fc8724983a126e23
+[vs]: https://code.visualstudio.com/
