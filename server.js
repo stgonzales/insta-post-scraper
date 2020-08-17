@@ -3,7 +3,7 @@ const app = express();
 const routes = require('./routes');
 const cors = require('cors');
 
-const port = 3000
+const port = 3050
 
 app.use(cors())
 

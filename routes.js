@@ -11,7 +11,6 @@ module.exports = {
                 const imgList = await page.evaluate(()=>{
 
                     const nodeList = document.querySelectorAll('article img')
-                    if(nodeList.length === 0) return {message: "This Account is Private"}
 
                     const imgArray = [...nodeList]
                     const imgList = imgArray.map(({src})=>({

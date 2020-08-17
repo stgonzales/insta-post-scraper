@@ -103,9 +103,3 @@ footer {
     padding: 2rem;
     text-align: center;
 }
-
-@media (min-width: 700px){
-    header{
-        font-size: 100px;
-    }
-}
